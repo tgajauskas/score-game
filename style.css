@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Tahoma;
+}
+
+#score {
+    text-align: center;
+    font-size: xx-large;
+    padding: 35px;
+}
+
+#rules, p {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: gold;
+
+}
+
+#maxScore {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
